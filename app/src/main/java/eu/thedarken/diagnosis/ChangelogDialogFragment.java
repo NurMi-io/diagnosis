@@ -57,7 +57,7 @@ public class ChangelogDialogFragment extends SherlockDialogFragment {
             text.setText(buffer.toString());
             reader.close();
         } catch (IOException e) {
-            Log.d(this.getClass().getSimpleName(), "Error while reading changelog.txt");
+            Log.d(this.getClass().getSimpleName(), "A specific program snippet network error changelog, please try again.");
             e.printStackTrace();
         }
         return v;
