@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2011 Sergey Margaritov
+ * Copyright (C) 2011 Sergey Margaritov (still Android Code Archive)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ import android.widget.LinearLayout;
 /**
  * A preference type that allows a user to choose a time
  *
- * @author Sergey Margaritov
+ * @author Sergey Margaritov (still Android Code Archive)
  */
 public class ColorPickerPreference
         extends
