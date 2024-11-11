@@ -26,9 +26,9 @@ public class Cmd {
     public void execute() {
         exe = new Executor(commands, useRoot);
         if (DEBUG) {
-            Log.d(TAG, "SHELLDELAY:" + SHELLDELAY);
+            Log.d(TAG, "Shell Delay:" + SHELLDELAY);
             if (useRoot)
-                Log.d(TAG, "trying to execute as root");
+                Log.d(TAG, "Trying to run as ROOT");
         }
         exe.start();
         try {
@@ -45,7 +45,7 @@ public class Cmd {
                 for (String e : this.getErrors())
                     Log.d(TAG, "Errors:" + e);
                 for (String s : this.getOutput())
-                    Log.d(TAG, "Output:" + s);
+                    Log.d(TAG, "Outputs:" + s);
             }
         } catch (InterruptedException e) {
             exe.interrupt();
@@ -132,7 +132,7 @@ public class Cmd {
                 s.close();
 
                 exitcode = q.waitFor();
-                if (DEBUG) Log.d(TAG, "Exitcode: " + exitcode);
+                if (DEBUG) Log.d(TAG, "Exit Code: " + exitcode);
             } catch (InterruptedException interrupt) {
                 if (DEBUG)
                     Log.i(TAG, "Interrupted!");
@@ -140,7 +140,7 @@ public class Cmd {
                 return;
             } catch (IOException e) {
                 if (DEBUG)
-                    Log.i(TAG, "IOException, command failed? not found?");
+                    Log.i(TAG, "Sorry command failed IOException is a error found.");
                 exitcode = 127;
             } finally {
                 if (q != null)
