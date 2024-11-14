@@ -2,15 +2,15 @@
 <resources>
     <string-array name="infolist">
         <item>选择的东西</item><!-- 0 -->
-        <item>应用 >[设置]%CPU</item><!-- 1 -->
-        <item>应用 >40%CPU</item><!-- 2 -->
-        <item>应用 >1% CPU</item><!-- 3 -->
-        <item>Cpu 使用率 (所有芯)</item><!--4 -->
-        <item>Cpu USR (所有芯)</item><!-- 5 -->
-        <item>Cpu SYS (所有芯)</item><!-- 6 -->
-        <item>Cpu 空闲 (所有芯)</item><!-- 7 -->
-        <item>Cpu IO (所有芯)</item><!-- 8 -->
-        <item>Cpu NICE (所有芯)</item><!-- 9 -->
+        <item>应用 >[设置]% 中央处理器</item><!-- 1 -->
+        <item>应用 >40% 中央处理器</item><!-- 2 -->
+        <item>应用 >1% 中央处理器</item><!-- 3 -->
+        <item>中央处理器使用率 (所有芯)</item><!--4 -->
+        <item>中央处理器美国 (所有芯)</item><!-- 5 -->
+        <item>中央处理器系统 (所有芯)</item><!-- 6 -->
+        <item>中央处理器空闲 (所有芯)</item><!-- 7 -->
+        <item>中央处理器输入输出 (所有芯)</item><!-- 8 -->
+        <item>中央处理器好的 (所有芯)</item><!-- 9 -->
         <item>总的可用内存</item><!-- 10 -->
         <item>实际可用内存</item><!--11 -->
         <item>使用的内存</item><!-- 12 -->
@@ -28,35 +28,35 @@
         <item>日期</item><!-- 24 -->
         <item>磁盘读取</item><!-- 25 -->
         <item>磁盘写入</item><!-- 26 -->
-        <item>Cpu 频率 (所有芯)</item><!-- 27 -->
+        <item>中央处理器频率 (所有芯)</item><!-- 27 -->
         <item>可用外部空间</item><!-- 28 -->
         <item>剩余SD卡空间</item><!-- 29 -->
         <item>剩余系统空间</item><!-- 30 -->
         <item>可用的内部空间</item><!-- 31 -->
-        <item>Ping</item><!-- 32 -->
-        <item>WIFI 信号强度</item><!-- 33 -->
+        <item>平</item><!-- 32 -->
+        <item>无线上网信号强度</item><!-- 33 -->
         <item>电话信号强度</item><!-- 34 -->
 
 
-        <item>WIFI IP 地址 [Pro]</item><!-- 35 -->
-        <item>WIFI 名称 [Pro]</item><!-- 36 -->
-        <item>WIFI linkspeed [Pro]</item><!-- 37 -->
+        <item>无线网络地址 [Pro]</item><!-- 35 -->
+        <item>无线上网名称 [Pro]</item><!-- 36 -->
+        <item>无线上网连接速度 [Pro]</item><!-- 37 -->
         <item>下载 （单元格） [Pro]</item><!-- 38 -->
         <item>上传 （单元格） [Pro]</item><!-- 39 -->
 
-        <item>Core#1 freq [Pro]</item><!-- 40 -->
-        <item>Core#2 freq [Pro]</item><!-- 41 -->
-        <item>Core#3 freq [Pro]</item><!-- 42 -->
-        <item>Core#4 freq [Pro]</item><!-- 43 -->
+        <item>核心＃1频率 [Pro]</item><!-- 40 -->
+        <item>核心＃2频率 [Pro]</item><!-- 41 -->
+        <item>核心#3 频率 [Pro]</item><!-- 42 -->
+        <item>核心#4 频率 [Pro]</item><!-- 43 -->
 
-        <item>Core#1 usage [Pro]</item><!-- 44 -->
-        <item>Core#1 USR [Pro]</item><!-- 45 -->
-        <item>Core#1 SYS [Pro]</item><!-- 46 -->
-        <item>Core#1 IDLE [Pro]</item><!-- 47 -->
-        <item>Core#1 IO [Pro]</item><!-- 48 -->
-        <item>Core#1 NICE [Pro]</item><!-- 49 -->
+        <item>核#1 用法 [Pro]</item><!-- 44 -->
+        <item>核心#1 USR [Pro]</item><!-- 45 -->
+        <item>核心#1 系统 [Pro]</item><!-- 46 -->
+        <item>核心＃1空闲 [Pro]</item><!-- 47 -->
+        <item>核心#1 IO [Pro]</item><!-- 48 -->
+        <item>核心#1 NICE [Pro]</item><!-- 49 -->
 
-        <item>Core#2 usage [Pro]</item><!--50 -->
+        <item>Core#2 用法 [Pro]</item><!--50 -->
         <item>Core#2 USR [Pro]</item><!-- 51 -->
         <item>Core#2 SYS [Pro]</item><!-- 52 -->
         <item>Core#2 IDLE [Pro]</item><!-- 53 -->
